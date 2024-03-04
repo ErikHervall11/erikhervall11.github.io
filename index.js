@@ -39,7 +39,8 @@ async function fetchData() {
         cocktailDisplay.appendChild(drinkItem);
       });
     } else {
-      cocktailDisplay.innerHTML = "<p>No cocktails found for this letter.</p>";
+      cocktailDisplay.innerHTML =
+        "<p>No cocktails found for this letter/number.</p>";
     }
   } catch (error) {
     console.error(error);
