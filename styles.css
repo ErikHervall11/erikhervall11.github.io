@@ -173,3 +173,47 @@ header img {
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
+
+@media (max-width: 700px) {
+  * {
+    max-width: 700px;
+  }
+
+  .leftImage {
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+  }
+
+  .rightImage {
+    margin-right: 20px;
+    width: 120px;
+    height: auto;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    max-width: 700px;
+  }
+
+  .title {
+    /* border: black 2px solid; */
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-left: 0px;
+  }
+
+  #cocktailDisplay div {
+    box-shadow: 2px 2px 4px 4px grey;
+    /* border: 2px solid grey; */
+    padding: 10px;
+    text-align: center;
+    width: 290px;
+  }
+}
