@@ -1,0 +1,170 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: #ffd147;
+}
+
+#cocktailDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.drinkDisplay ul {
+  text-align: left;
+}
+
+#cocktailDisplay div {
+  box-shadow: 2px 2px 4px 4px grey;
+  /* border: 2px solid grey; */
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+#cocktailDisplay img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  align-items: left;
+  box-shadow: 0px 0px 4px 4px grey;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.title {
+  /* border: black 2px solid; */
+  /* display: flex;
+  justify-content: center; */
+  font-size: 60px;
+  padding-left: 50px;
+}
+
+.undertitle {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+  margin-bottom: 100px;
+}
+
+.leftImage {
+  margin-left: 50px;
+}
+
+.rightImage {
+  margin-right: 60px;
+  width: 250px;
+  height: auto;
+}
+
+header img {
+  width: 200px;
+  /* background-color: #ffd147; */
+}
+
+.search {
+  /* border: black solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt {
+  padding: 10px;
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+  /* background-color: #ccd1d9; */
+}
+
+.searchbar {
+  padding: 10px;
+  margin: 0px 10px;
+  height: 100px;
+  width: 80px;
+}
+.search input {
+  font-size: 60px;
+  text-align: center;
+}
+
+.searchbar,
+.search button {
+  /* border: grey 2px; */
+  background-color: #ccd1d9;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+  border: none;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.butt:hover {
+  box-shadow: 0px 0px 2px 5px grey;
+}
+.butt:hover img {
+  animation: shake 1.5s;
+}
+
+.searchbar:hover {
+  /* border: #ffd147 solid 2px; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 5px grey;
+  outline: none;
+  border: none;
+}
+
+.butt img {
+  height: 50px;
+  width: auto;
+  background-color: #ccd1d9;
+}
+.searchbar:focus-visible {
+  border: none;
+  outline: none;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    transform: translate(15px, -15px) rotate(25deg);
+  }
+  20% {
+    transform: translate(15px, -15px) rotate(30deg);
+  }
+  30% {
+    transform: translate(0px, 0px) rotate(25deg);
+  }
+  40% {
+    transform: translate(15px, -15px) rotate(40deg);
+  }
+  50% {
+    transform: translate(0px, 0px) rotate(25deg);
+  }
+  60% {
+    transform: translate(15px, -15px) rotate(30deg);
+  }
+  70% {
+    transform: translate(0px, 0px) rotate(25deg);
+  }
+  80% {
+    transform: translate(15px, -15px) rotate(20deg);
+  }
+  90% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}

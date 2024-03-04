@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail Fetcher</title>
+    <link rel="stylesheet" href="/cocktailAPI/styles.css" />
+    <link rel="icon" href="/cocktailAPI/cocktail.png" />
+  </head>
+  <body>
+    <header class="head">
+      <img class="leftImage" src="cocktail.png" alt="" />
+      <div class="title">Cocktail Search</div>
+
+      <img class="rightImage" src="/cocktailAPI/bar.png" alt="" />
+    </header>
+    <div class="undertitle">time to shake it up...</div>
+    <div class="search">
+      <input type="text" class="searchbar" id="cocktailLetter" placeholder="" />
+      <!-- <a href=""
+        ><img src="/cocktailAPI/shaker.png" alt=""
+      /></a> -->
+      <button class="butt" onclick="fetchData()">
+        <img src="/cocktailAPI/shaker.png" alt="" /></button
+      ><br />
+    </div>
+    <div class="drinkDisplay" id="cocktailDisplay"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
