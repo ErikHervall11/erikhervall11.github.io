@@ -54,6 +54,11 @@
   margin-bottom: 100px;
 }
 
+.searchtext {
+  display: flex;
+  justify-content: center;
+}
+
 .leftImage {
   margin-left: 50px;
 }
